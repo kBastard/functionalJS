@@ -27,7 +27,7 @@ _.nth = function(array, index) {
 };
 
 // TEST CASES
-let weapons = [
+const weapons = [
   "Revolver",
   "Lead Pipe",
   "Candlestick",
@@ -69,18 +69,7 @@ console.log(
 
 _.head = function(array) {
   return array[0]
-
 };
-
-// TEST CASES
-weapons = [
-  "Revolver",
-  "Knife",
-  "Lead Pipe",
-  "Candlestick",
-  "Rope",
-  "Wrench"
-];
 
 // We should get the first element of the weapons array.
 console.log(
